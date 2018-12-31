@@ -1,4 +1,58 @@
-$primary-color: #444;
+$primary-color: #141414;
+html,
 body {
   background-color: $primary-color;
+  height: 100%;
+  font-family: "Roboto Mono";
+  margin: 0;
+}
+.cloud,
+.cloud2 {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  width: 100%;
+}
+.cloud2 {
+  bottom: -100%;
+}
+.container {
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // to select the second div with the class of container
+  &:nth-of-type(2) {
+    background: #0083fd;
+  }
+  span {
+    font-size: 8em;
+    font-weight: bold;
+  }
+  span.twenty,
+  span.third {
+    color: #fff;
+    z-index: 2;
+  }
+  span.twenty {
+    position: fixed;
+    text-align: center;
+    margin-left: -10%;
+  }
+  span.secondary {
+    color: rgba(255, 255, 255, 0.15);
+    text-align: center;
+    margin-left: 25%;
+  }
+  span.third {
+    color: #fff;
+  }
+}
+#scroll {
+  position: fixed;
+  bottom: 40px;
+  width: 30px;
+  left: 50%;
+  z-index: 2;
 }
