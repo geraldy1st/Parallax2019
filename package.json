@@ -1,0 +1,14 @@
+{
+  "name": "parallaxeffect",
+  "version": "1.0.0",
+  "description": "Parallax Effect",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recusive"
+  },
+  "author": "Geraldy",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
