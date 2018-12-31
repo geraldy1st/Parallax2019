@@ -56,3 +56,9 @@ body {
   left: 50%;
   z-index: 2;
 }
+[data-scroll] {
+  opacity: 1s;
+}
+[data-scroll="out"] {
+  opacity: 0;
+}
