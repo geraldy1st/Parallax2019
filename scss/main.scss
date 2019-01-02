@@ -57,7 +57,10 @@ body {
   z-index: 2;
 }
 [data-scroll] {
-  opacity: 1s;
+  transition: opacty 1s;
+}
+[data-scroll="in"] {
+  opacity: 1;
 }
 [data-scroll="out"] {
   opacity: 0;
