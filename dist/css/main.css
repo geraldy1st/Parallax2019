@@ -67,3 +67,16 @@ body {
 [data-scroll="out"] {
   opacity: 0;
 }
+/* @media (min-width: 600px) and (orientation: landscape) {
+  .container span.twenty,
+  .container span.third {
+    font-size: 10em;
+  }
+} */
+@media screen and (max-width: 675px) {
+  .container span.twenty,
+  .container span.third,
+  .container span.secondary {
+    font-size: 3.8em;
+  }
+}
